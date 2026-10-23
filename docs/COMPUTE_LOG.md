@@ -18,3 +18,10 @@ result.
 | 2026-10-23T10:44Z | 22d6c36 | 04602131bf9b | 83 | train COND seed 0 | best epoch 52 of 63; test peak AUROC 0.8210 |
 | 2026-10-23T12:06Z | 22d6c36 | be5fd3340a16 | 68 | train COND-SHUF seed 0 | best epoch 39 of 50; test peak AUROC 0.8205 |
 | 2026-10-23T14:31Z | bd3d403 | - | - | train COND-PRE seed 0 | Stopped at epoch ~58 at Aqib's request (laptop shutdown); no result, rerun on resume |
+| 2026-10-23T15:43Z | f8fdded | aecbeedb4ee1 | 50 | train W8 seed 1 | best epoch 27 of 38; test peak AUROC 0.8150 |
+| 2026-10-23T16:32Z | f8fdded | 3668cda3add2 | 93 | train W32 seed 1 | best epoch 50 of 61; test peak AUROC 0.8197 |
+| 2026-10-23T18:05Z | f8fdded | 7874ab8115bf | 100 | train W512 seed 1 | best epoch 50 of 61; test peak AUROC 0.8185 |
+| 2026-10-23T19:45Z | f8fdded | 55c063ca0557 | 75 | train COND seed 1 | best epoch 34 of 45; test peak AUROC 0.8197 |
+| 2026-10-23T21:00Z | f8fdded | 68b7deaf378d | 93 | train COND-SHUF seed 1 | best epoch 41 of 52; test peak AUROC 0.8189 |
+| 2026-10-23T06:20Z | 22d6c36 | - | ~150 | Score W2 to COND-SHUF seed 0 and five seed-1 runs (variants, probes, ISM), concurrent with training at about 15 min each | Complete |
+| 2026-10-23T22:50Z | 222d7f8 | - | 4 | Aggregate with 2,000 locus resamples; exploratory within-type AUROC | Complete |

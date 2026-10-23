@@ -199,3 +199,14 @@ the function-class equivalence of COND and W32 and leaves the pre-bottleneck hea
 work. Alternatives considered: two concurrent processes on the GPU (contention slowed the scvi
 reference from 65 s to 188-400 s per epoch, so no throughput gain) and bfloat16 autocast (about
 20% faster, numerically inconsistent with the finished seed-0 runs).
+
+## 2026-10-23 - Exploratory within-type specificity AUROC (after results were seen)
+
+Added after the pre-registered results were computed, and reported as exploratory. W2 scored a
+pooled specificity AUROC of 0.39, below chance. Inspection showed W2 places its largest |E| in
+CD4 T for every variant, so its centered |E| ranks cell types in the same fixed order for every
+variant, and the pooled AUROC then measures that order against the types' positive-label rates
+(0.27 for CD8 T to 0.88 for CD14 Mono). The within-type version computes the AUROC in each cell
+type separately and averages over types (`src/ctb/eval/exploratory.py`), with the same locus
+bootstrap. It does not replace the pre-registered metric, and H2 and H3 are judged on the
+pooled version as planned.

@@ -84,7 +84,7 @@ def fig_width_sweep(summary: pd.DataFrame, by_run: pd.DataFrame) -> None:
                 ax.text(
                     x[-1],
                     r["value"],
-                    f" {name.title()}",
+                    f" {'ChromBPNet' if name == 'CHROMBPNET' else 'Motif'}",
                     color=MUTED,
                     fontsize=7,
                     va="bottom",
@@ -103,7 +103,7 @@ def fig_width_sweep(summary: pd.DataFrame, by_run: pd.DataFrame) -> None:
         ha="left",
     )
     fig.tight_layout()
-    fig.savefig(FIG / "fig1_width_sweep.png", dpi=200)
+    fig.savefig(FIG / "fig1_width_sweep.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -148,7 +148,7 @@ def fig_sf(summary: pd.DataFrame) -> None:
         loc="left",
     )
     fig.tight_layout()
-    fig.savefig(FIG / "fig2_specificity_fraction.png", dpi=200)
+    fig.savefig(FIG / "fig2_specificity_fraction.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -175,7 +175,7 @@ def fig_probes(by_run: pd.DataFrame) -> None:
         loc="left",
     )
     fig.tight_layout()
-    fig.savefig(FIG / "fig3_motif_probes.png", dpi=200)
+    fig.savefig(FIG / "fig3_motif_probes.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -217,7 +217,7 @@ def fig_comparisons(comps: pd.DataFrame) -> None:
         fontsize=8,
     )
     fig.tight_layout()
-    fig.savefig(FIG / "fig4_paired_differences.png", dpi=200)
+    fig.savefig(FIG / "fig4_paired_differences.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 
@@ -240,7 +240,7 @@ def fig_quality(by_run: pd.DataFrame) -> None:
         ax.set_xticks(range(len(order)), order, fontsize=7, rotation=30)
         ax.set_title(title, color=INK, fontsize=9, loc="left")
     fig.tight_layout()
-    fig.savefig(FIG / "fig5_model_quality.png", dpi=200)
+    fig.savefig(FIG / "fig5_model_quality.png", dpi=200, bbox_inches="tight")
     plt.close(fig)
 
 

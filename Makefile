@@ -33,8 +33,10 @@ g0: ## Gate G0 reference: scvi.external.SCBASSET on the same split
 	nice -n 15 $(PY) -m ctb.train.scvi_reference
 
 eval: ## Score variants and probes for every trained run, then aggregate with bootstrap intervals
+	$(PY) -m ctb.eval.baselines
 	$(PY) -m ctb.eval.score_all
 	$(PY) -m ctb.eval.aggregate
+	$(PY) -m ctb.eval.exploratory
 
 report: ## Regenerate every figure and table from committed results
 	$(PY) -m ctb.eval.figures

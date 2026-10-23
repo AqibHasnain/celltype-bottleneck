@@ -1,0 +1,81 @@
+{
+  "counts": {
+    "test_causal_pairs": 1664,
+    "controls": 8282,
+    "specificity_set": 1089,
+    "cpc_rows": 544,
+    "specificity_labels_pos": 2633,
+    "specificity_labels_neg": 1461,
+    "test_loci": 726,
+    "train_causal_pairs": 8177,
+    "train_loci": 3349,
+    "n_boot": 2000
+  },
+  "verdicts": {
+    "H1": {
+      "criterion": "95% CI of W512 - W8 inside (-0.02, 0.02) for causal AUROC and sign concordance",
+      "comparisons": {
+        "causal_auroc": {
+          "diff": -0.017293825639013216,
+          "ci_lo": -0.028008793408328306,
+          "ci_hi": -0.006484655216236769
+        },
+        "sign_concordance": {
+          "diff": 0.0027043269230769273,
+          "ci_lo": -0.01579792099493242,
+          "ci_hi": 0.020288771781324363
+        }
+      },
+      "supported": false,
+      "point_estimates_within_margin": true
+    },
+    "H2": {
+      "criterion": "W512 - W32 95% CI above zero for CPC and specificity AUROC",
+      "comparisons": {
+        "cpc": {
+          "diff": 0.03206618676307013,
+          "ci_lo": -0.0017772684441033268,
+          "ci_hi": 0.06692157216510923
+        },
+        "specificity_auroc": {
+          "diff": 0.009574354147186215,
+          "ci_lo": -0.007397499467234281,
+          "ci_hi": 0.026238138979965523
+        }
+      },
+      "n_metrics_supporting": 0,
+      "supported": false
+    },
+    "H3": {
+      "criterion": "COND - W32 95% CI above zero for CPC and specificity AUROC, and test peak AUROC drop <= 0.01",
+      "comparisons": {
+        "cpc": {
+          "diff": 0.036523823701837016,
+          "ci_lo": 0.0005806517909790854,
+          "ci_hi": 0.07242290236054665
+        },
+        "specificity_auroc": {
+          "diff": -0.019621177322630468,
+          "ci_lo": -0.03899443118287928,
+          "ci_hi": -0.0004888084244026622
+        }
+      },
+      "peak_auroc_diff": 0.0006922744160235972,
+      "n_metrics_supporting": 1,
+      "peak_auroc_ok": true,
+      "supported": false,
+      "shuffled_control": {
+        "cpc": {
+          "diff": 0.008361970685502845,
+          "ci_lo": -0.025357892612269655,
+          "ci_hi": 0.042335737881033245
+        },
+        "specificity_auroc": {
+          "diff": -0.013046124155242256,
+          "ci_lo": -0.029410008502525772,
+          "ci_hi": 0.0036344795292104965
+        }
+      }
+    }
+  }
+}
