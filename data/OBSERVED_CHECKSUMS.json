@@ -29,6 +29,156 @@
   "sha256": "c941b89bc37cebfa4fc22647f85ba6db092f3db50211a3fbb30fd65db769396f",
   "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/TenK10K.caQTL.Final1Mb.susie_finemapped_results_w_ChromBPNetScores.parquet"
  },
+ "tenk10k/chrombpnet/B_naive/fold0/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "35467a25fe4da821c1ada45b9eb11832720c8e2b8646c455d0f5b4aa4bdd0151",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/B_naive/chrombpnet_model_full_bias_NKFull1_fold0/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/B_naive/fold1/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "66be8437743b798e5a5044846d73bae24f1560c17d3c029c873721eeaf658b55",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/B_naive/chrombpnet_model_full_bias_NKFull1_fold1/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/B_naive/fold2/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "dd5d7d485b606d23a356a795b8b6923e84ce5372eda9f7d72ff8afd04fbd1eea",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/B_naive/chrombpnet_model_full_bias_NKFull1_fold2/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/B_naive/fold3/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "c74d400f3cae236d027dc145a51d97d713723310fc450ff08bdd8213104eade9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/B_naive/chrombpnet_model_full_bias_NKFull1_fold3/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/B_naive/fold4/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "b4100b14117681f2d3c66f9f55ab67bdcd2682a17bf7e9d38d3e97e2d8a767b9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/B_naive/chrombpnet_model_full_bias_NKFull1_fold4/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD14_Mono/fold0/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "d7f3f2c5eeb5be0133fffbcc6a584bc53dec5b87dd6f177d5579f866e75afb1b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD14_Mono/chrombpnet_model_full_bias_NKFull1_fold0/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD14_Mono/fold1/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "5d1e2efd6e09af299d055b174f2a1044670a4633fd9ac93f2b7e457d96622a4b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD14_Mono/chrombpnet_model_full_bias_NKFull1_fold1/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD14_Mono/fold2/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "daacd2c8cf293e6fefac89b99bdc22938775fff099be7a401c713c9d9e762f1b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD14_Mono/chrombpnet_model_full_bias_NKFull1_fold2/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD14_Mono/fold3/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "5b0bfbc0b05f1042eed258aa738848c978b792361c9bcd6db04b4d2e76b779f3",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD14_Mono/chrombpnet_model_full_bias_NKFull1_fold3/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD14_Mono/fold4/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "812c44ca1bf50f520e0ab27433b5152326dd8e9814b5dc729e742bb91678580f",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD14_Mono/chrombpnet_model_full_bias_NKFull1_fold4/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD16_Mono/fold0/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "05829f673f7dc9ab2ad503d7133226b4b432eecc4b183d94ac6f64833d4b169a",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD16_Mono/chrombpnet_model_full_bias_NKFull1_fold0/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD16_Mono/fold1/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "e34a685a6418ff55de6091db4f0db46248daa3ec01532c16ea2dc7ace1c1a165",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD16_Mono/chrombpnet_model_full_bias_NKFull1_fold1/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD16_Mono/fold2/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "f2fb3e3b18dbe0074c5c5d28cd7a835f77c855ce45e9073388a3fe0f89c8024e",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD16_Mono/chrombpnet_model_full_bias_NKFull1_fold2/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD16_Mono/fold3/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "b723e0fca15ac64ea1ae1c7aa3677f92a8466a55d660dd9b913f46705fdec4dd",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD16_Mono/chrombpnet_model_full_bias_NKFull1_fold3/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD16_Mono/fold4/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "def708990e6bb98b1d4b70e7e9adb9ab8abc1a07c57da7d508738d8770317d5b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD16_Mono/chrombpnet_model_full_bias_NKFull1_fold4/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD4_Naive/fold0/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "9458aa8bdebc62bf134bedc37e5c632f6c9951d0c4c496e90f8c3592e0835bb2",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD4_Naive/chrombpnet_model_full_bias_NKFull1_fold0/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD4_Naive/fold1/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "2d95a0bf64c8eb0bef31e5a6d3fd518f22c6385beda45da56b58aed39bc57086",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD4_Naive/chrombpnet_model_full_bias_NKFull1_fold1/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD4_Naive/fold2/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "94156df93eadadec43e5b897badb4829ce80f80cc1b3a4073a54a99a3220f1be",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD4_Naive/chrombpnet_model_full_bias_NKFull1_fold2/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD4_Naive/fold3/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "c963a8502d46d64ecdd43ba74ef43167b5707b97e569a9787d9807d7927e9c82",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD4_Naive/chrombpnet_model_full_bias_NKFull1_fold3/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD4_Naive/fold4/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "6b56beed735457f818e304aa7be90917266ac34e294fbe148902bd4a34538901",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD4_Naive/chrombpnet_model_full_bias_NKFull1_fold4/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD8_Naive/fold0/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "965107b65da53669290678905f21dd7cda42ce3c2f288bd8afc93441bc1c6dfb",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD8_Naive/chrombpnet_model_full_bias_NKFull1_fold0/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD8_Naive/fold1/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "15d3375b204190df9573b2fa76d734f3f80d7314011656c5df8c25e84fac2e47",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD8_Naive/chrombpnet_model_full_bias_NKFull1_fold1/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD8_Naive/fold2/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "2ad74e6e2ee0157ab029cce66c0ece90e8dd2d016468297901ed1b9694359888",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD8_Naive/chrombpnet_model_full_bias_NKFull1_fold2/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD8_Naive/fold3/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "08ee776e9ecc7e6bfb6d697330e1d645be70f81a2a63a899f470627f5671853e",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD8_Naive/chrombpnet_model_full_bias_NKFull1_fold3/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/CD8_Naive/fold4/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "f0b4e74f7e9aa02c55bfe514932d3daf12f9444fa59d81e7ce89672ff3866c03",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/CD8_Naive/chrombpnet_model_full_bias_NKFull1_fold4/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/NK/fold0/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "95341648fbd9e5f7ecf2422b082a2540d0f52368d03a9fb84ef99f3b09415805",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/NK/chrombpnet_model_full_bias_NKFull1_fold0/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/NK/fold1/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "b0b5ae29e07c4d16e6f91948b9489be39103f8d8c7b4c2f17db5bfa416e505ec",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/NK/chrombpnet_model_full_bias_NKFull1_fold1/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/NK/fold2/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "46fb720ee1d30f25516efb2ba6b1c881400a706c75d10fef709f9ce06975351a",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/NK/chrombpnet_model_full_bias_NKFull1_fold2/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/NK/fold3/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "73bcfcb17c3a215f02c6216ea42770fd200e0f76912ac8b0cea69efabe9601c7",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/NK/chrombpnet_model_full_bias_NKFull1_fold3/models/chrombpnet_nobias.h5"
+ },
+ "tenk10k/chrombpnet/NK/fold4/chrombpnet_nobias.h5": {
+  "bytes": 25582648,
+  "sha256": "973241190ba380cf2c178f8599df866d852076d6f17ebf23b03e67fd21d23cf9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/NK/chrombpnet_model_full_bias_NKFull1_fold4/models/chrombpnet_nobias.h5"
+ },
  "tenk10k/consensus_peaks.bed": {
   "bytes": 19367486,
   "sha256": "d23ea9ffbfa906841287635234d9c54d405924ca6631ee7887e8d2a10715b265",

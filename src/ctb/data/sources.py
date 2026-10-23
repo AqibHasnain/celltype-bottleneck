@@ -60,6 +60,15 @@ def all_sources() -> list[Source]:
         for ct in CELL_TYPES
         for chrom in AUTOSOMES
     ]
+    tenk += [
+        Source(
+            f"{HF_BASE}/ChromBPNet/{ct}/chrombpnet_model_full_bias_NKFull1_fold{fold}/models/"
+            "chrombpnet_nobias.h5",
+            tk / "chrombpnet" / ct / f"fold{fold}" / "chrombpnet_nobias.h5",
+        )
+        for ct in CELL_TYPES
+        for fold in range(5)
+    ]
     ref = [
         Source(
             "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz",
