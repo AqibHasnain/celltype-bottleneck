@@ -1,0 +1,9 @@
+{
+  "ctb_W32_seed0_test_peak_auroc": 0.8195831014364033,
+  "scvi_SCBASSET_seed0_test_peak_auroc": 0.818932419374668,
+  "difference": 0.0006506820617353526,
+  "threshold": 0.02,
+  "specificity_set_test_pairs": 1089,
+  "specificity_threshold": 300,
+  "passed": true
+}

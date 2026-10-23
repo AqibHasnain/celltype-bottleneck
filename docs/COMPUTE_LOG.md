@@ -10,3 +10,4 @@ result.
 | 2026-10-23T02:31Z | 70829a8 | - | 51 | Stream TenK10K nominal pairs, chr2/8/13 x 6 types (network, CPU) | 18 files reduced to near-center SNVs |
 | 2026-10-23T04:18Z | ab6acf3 | - | 80 | ChromBPNet reference: 6 types x 5 folds on 1,664 causal test pairs and 8,282 controls | Complete |
 | 2026-10-23T04:05Z | ab6acf3 | - | 13 | Score W32 seed 0 (variants, probes, ISM), shared GPU | Complete; 4 of 8 probes pass |
+| 2026-10-23T04:05Z | 7445bd0 | 8cf0cd34bbde | 133 | G0 reference: scvi.external.SCBASSET d=32 seed 0 (shared GPU for 80 min) | 45 epochs; test peak AUROC 0.8189 |
