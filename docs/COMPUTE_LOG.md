@@ -17,3 +17,4 @@ result.
 | 2026-10-23T09:08Z | 22d6c36 | 53b2e8704263 | 96 | train W512 seed 0 | best epoch 63 of 74; test peak AUROC 0.8172 |
 | 2026-10-23T10:44Z | 22d6c36 | 04602131bf9b | 83 | train COND seed 0 | best epoch 52 of 63; test peak AUROC 0.8210 |
 | 2026-10-23T12:06Z | 22d6c36 | be5fd3340a16 | 68 | train COND-SHUF seed 0 | best epoch 39 of 50; test peak AUROC 0.8205 |
+| 2026-10-23T14:31Z | bd3d403 | - | - | train COND-PRE seed 0 | Stopped at epoch ~58 at Aqib's request (laptop shutdown); no result, rerun on resume |

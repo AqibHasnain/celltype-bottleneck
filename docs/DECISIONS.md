@@ -179,3 +179,10 @@ are unchanged.
 W32 seed 0 ran 63 epochs (best at 52) at about 70 s per epoch, 74 minutes in total. The
 pre-registered grid (7 arms x 3 seeds) projects to about 26 hours and the two added arms to about
 8 more, under the 48-hour limit, so all arms keep three seeds.
+
+## 2026-10-23 - Grid paused after seed 0 of seven arms
+
+Stopped at Aqib's request before a laptop shutdown. Finished and scored: seed 0 of W2, W8, W32,
+W128, W512, COND and COND-SHUF, plus the ChromBPNet and motif references. COND-PRE seed 0 was
+killed mid-training and is rerun from scratch on resume; `ctb.train.grid` skips every run that
+has a `summary.json`. No hypothesis has been evaluated: H1 to H3 are judged on three seeds.
