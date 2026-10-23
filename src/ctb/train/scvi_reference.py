@@ -26,6 +26,27 @@ from ctb.utils.seeding import set_all_seeds
 log = get_logger(__name__)
 
 
+def _patch_auroc(scbasset_module) -> None:
+    """torchmetrics' binary AUROC indexes out of bounds on MPS for scvi's 1.5M-element batches.
+    The validation AUROC (the stopping monitor) is computed on CPU instead; the training-batch
+    AUROC, which scvi only logs, is skipped. The loss and gradients are untouched."""
+    import torchmetrics
+
+    real = torchmetrics.functional.auroc
+
+    class _Shim:
+        @staticmethod
+        def auroc(preds, target, task):
+            if torch.is_grad_enabled():
+                return torch.zeros((), device=preds.device)
+            return real(preds.detach().cpu(), target.cpu(), task=task).to(preds.device)
+
+    class _Torchmetrics:
+        functional = _Shim
+
+    scbasset_module.torchmetrics = _Torchmetrics
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--seed", type=int, default=0)
@@ -34,7 +55,10 @@ def main() -> None:
 
     import scvi
     from scvi.external import SCBASSET
+    from scvi.external.scbasset import _module as scbasset_module
     from scvi.train._callbacks import SaveCheckpoint
+
+    _patch_auroc(scbasset_module)
 
     set_all_seeds(args.seed)
     scvi.settings.seed = args.seed

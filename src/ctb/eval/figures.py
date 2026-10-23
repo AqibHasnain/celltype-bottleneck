@@ -51,7 +51,7 @@ def _style(ax) -> None:
 
 
 def _arm(summary: pd.DataFrame, arm: str, metric: str):
-    r = summary.query("arm == @arm and metric == @metric")
+    r = summary[(summary["arm"] == arm) & (summary["metric"] == metric)]
     return r.iloc[0] if len(r) else None
 
 
@@ -197,7 +197,7 @@ def fig_comparisons(comps: pd.DataFrame) -> None:
     ]
     data = []
     for a, b, m in rows:
-        r = comps.query("a == @a and b == @b and metric == @m")
+        r = comps[(comps["a"] == a) & (comps["b"] == b) & (comps["metric"] == m)]
         if len(r):
             data.append((f"{a} - {b}: {LABELS[m]}", r.iloc[0]))
     fig, ax = plt.subplots(figsize=(7, 0.32 * len(data) + 0.9), facecolor=SURFACE)

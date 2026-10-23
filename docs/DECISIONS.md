@@ -165,3 +165,17 @@ Written before any variant was scored.
   r = 0.998 (slope 1.03) for CD14_Mono and r = 0.93 (slope 0.99) for B_naive. The ChromBPNet
   models were trained on TenK10K accessibility with folds that include this project's test
   chromosomes, so it is a reference point and not a held-out competitor.
+
+## 2026-10-23 - scvi reference: AUROC metric computed on CPU
+
+torchmetrics' binary AUROC fails with an out-of-bounds index on MPS for scvi's 128 x 11,898
+batches, which aborts `SCBASSET.train` in the first epoch. `src/ctb/train/scvi_reference.py`
+replaces the metric inside scvi's module: during validation it is computed on CPU, and the
+training-batch AUROC, which scvi only logs, returns 0. Loss, gradients and the stopping monitor
+are unchanged.
+
+## 2026-10-23 - Grid projection: no seed cut
+
+W32 seed 0 ran 63 epochs (best at 52) at about 70 s per epoch, 74 minutes in total. The
+pre-registered grid (7 arms x 3 seeds) projects to about 26 hours and the two added arms to about
+8 more, under the 48-hour limit, so all arms keep three seeds.

@@ -239,13 +239,8 @@ def main() -> None:
             continue
         seeds = sorted({d.name for d in arms[a]} & {d.name for d in arms[b]})
         for metric in [*VARIANT_METRICS, "test_peak_auroc"]:
-            per_seed = [
-                float(
-                    by_run.query("arm == @a and seed == @s")[metric].iloc[0]
-                    - by_run.query("arm == @b and seed == @s")[metric].iloc[0]
-                )
-                for s in seeds
-            ]
+            val = by_run.set_index(["arm", "seed"])[metric]
+            per_seed = [float(val[(a, s)] - val[(b, s)]) for s in seeds]
             row = {
                 "a": a,
                 "b": b,
@@ -258,10 +253,12 @@ def main() -> None:
                 d = np.mean([boot[(a, s)][metric] - boot[(b, s)][metric] for s in seeds], axis=0)
                 row["ci_lo"], row["ci_hi"] = np.nanpercentile(d, [2.5, 97.5])
             comps.append(row)
-    comps = pd.DataFrame(comps)
+    comps = pd.DataFrame(
+        comps, columns=["a", "b", "metric", "diff", "ci_lo", "ci_hi", "per_seed", "n_paired_seeds"]
+    )
 
     def ci(a: str, b: str, metric: str) -> dict:
-        r = comps.query("a == @a and b == @b and metric == @metric")
+        r = comps[(comps["a"] == a) & (comps["b"] == b) & (comps["metric"] == metric)]
         return r.iloc[0][["diff", "ci_lo", "ci_hi"]].astype(float).to_dict() if len(r) else {}
 
     verdicts = {}
@@ -287,7 +284,9 @@ def main() -> None:
         }
     for cond, shuf in (("COND", "COND-SHUF"), ("COND-PRE", "COND-PRE-SHUF")):
         h3 = {m: ci(cond, "W32", m) for m in ("cpc", "specificity_auroc")}
-        peak = comps.query("a == @cond and b == 'W32' and metric == 'test_peak_auroc'")
+        peak = comps[
+            (comps["a"] == cond) & (comps["b"] == "W32") & (comps["metric"] == "test_peak_auroc")
+        ]
         if all(h3.values()) and len(peak):
             drop = float(peak["diff"].iloc[0])
             n_pos = sum(v["ci_lo"] > 0 for v in h3.values())
