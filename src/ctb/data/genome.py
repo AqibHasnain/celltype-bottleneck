@@ -41,14 +41,28 @@ def window_start(center: int) -> int:
     return center - HALF
 
 
+@lru_cache(maxsize=32)
+def chrom_codes(chrom: str) -> np.ndarray:
+    fa = genome()[chrom]
+    return encode(fa[0 : len(fa)])
+
+
 def fetch_codes(chrom: str, start: int, end: int) -> np.ndarray:
     """Codes for the 0-based half-open interval, N-padded past either chromosome end."""
-    fa = genome()[chrom]
-    n = len(fa)
-    lo, hi = max(start, 0), min(end, n)
+    seq = chrom_codes(chrom)
+    lo, hi = max(start, 0), min(end, len(seq))
     out = np.full(end - start, 4, dtype=np.uint8)
     if hi > lo:
-        out[lo - start : hi - start] = encode(fa[lo:hi])
+        out[lo - start : hi - start] = seq[lo:hi]
+    return out
+
+
+def bases_at(chrom: np.ndarray, pos0: np.ndarray) -> np.ndarray:
+    """Reference letters at 0-based positions."""
+    out = np.empty(len(chrom), dtype="<U1")
+    for c in np.unique(chrom):
+        m = chrom == c
+        out[m] = BASES[chrom_codes(c)[pos0[m]]].view("S1").astype("<U1")
     return out
 
 
