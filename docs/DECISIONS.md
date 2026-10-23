@@ -186,3 +186,16 @@ Stopped at Aqib's request before a laptop shutdown. Finished and scored: seed 0 
 W128, W512, COND and COND-SHUF, plus the ChromBPNet and motif references. COND-PRE seed 0 was
 killed mid-training and is rerun from scratch on resume; `ctb.train.grid` skips every run that
 has a `summary.json`. No hypothesis has been evaluated: H1 to H3 are judged on three seeds.
+
+## 2026-10-23 - Seeds cut to two for the hypothesis arms; COND-PRE not run
+
+Aqib set a time budget of about 7 hours for the remaining training, against about 22 hours for
+the full grid. Decided before any hypothesis was evaluated. Seed 1 is trained for W8, W32,
+W512, COND and COND-SHUF, the arms that H1 (W512 - W8), H2 (W512 - W32) and H3 (COND - W32, with
+COND-SHUF as its control) compare, so every pre-registered hypothesis is tested on two seeds.
+W2 and W128 keep one seed and are reported as points on the width curve only. Seed 2 is not run
+for any arm. COND-PRE and COND-PRE-SHUF, added on 2026-10-22, are not run; the report states
+the function-class equivalence of COND and W32 and leaves the pre-bottleneck head as future
+work. Alternatives considered: two concurrent processes on the GPU (contention slowed the scvi
+reference from 65 s to 188-400 s per epoch, so no throughput gain) and bfloat16 autocast (about
+20% faster, numerically inconsistent with the finished seed-0 runs).
