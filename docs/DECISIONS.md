@@ -129,3 +129,39 @@ Set before any variant was scored.
 - Specificity-AUROC score: for each variant and type, |E| minus the row mean of |E|.
 - Rows of B with a missing slope (peak not tested in a type) use the observed types only, and
   the same mask is applied to E for every specific-component metric.
+
+## 2026-10-22 - How H1 to H3 are judged, and other analysis details
+
+Written before any variant was scored.
+
+- H1 is supported when the 95% interval of W512 - W8 lies inside (-0.02, 0.02) for both causal
+  AUROC and sign concordance. Point estimates within 0.02 with a wider interval are reported as
+  "not demonstrated", since an interval that reaches 0.02 does not show a change below 0.02.
+- H2 is supported when the W512 - W32 interval is above zero for both CPC and specificity AUROC,
+  and partially supported when only one is. Arm means across all five widths are reported to
+  show whether the change is monotone.
+- H3 is supported when COND - W32 meets the H2 criterion and the mean over seeds of the paired
+  test peak AUROC difference is >= -0.01. The same rule is applied to the added COND-PRE arm and
+  reported separately. A gain counts as label-driven only if the shuffled control's interval
+  against W32 is not above zero.
+- An arm's value is the mean over its seeds of the per-seed metric. Seeds are paired by index
+  across arms.
+- The CPC row set (specificity-set rows whose centered B norm is above the median) is fixed once
+  on the full data and reweighted in each bootstrap resample, so a resample cannot change which
+  variants count as having a non-flat profile.
+- Matched controls take the locus of the causal pair they were matched to.
+- ISM rows are every (peak, position, alternative base) over 500 test peaks chosen with seed 0,
+  forward strand only: 2,016,000 x 6 per run.
+- Motif probes use the JASPAR 2024 non-redundant matrices named PAX5, EBF1, TBX21, EOMES, SPI1
+  (MA0080.7, listed as Spi1), CEBPB, TCF7 and LEF1 (MA0768.3, listed as Lef1). TCF7 and LEF1
+  pass when either T type is top, SPI1 and CEBPB when either monocyte type is top. The pass rate
+  is over the 8 probes on the effect averaged over 1,000 backgrounds; the per-background pass
+  rate is reported beside it.
+- ChromBPNet reference: the TenK10K bias-free models were loaded into PyTorch from their HDF5
+  weights (`src/ctb/eval/chrombpnet.py`), because the release's precomputed scores exist only for
+  each variant's own credible-set cell types and not for controls. Scores are the 5-fold mean of
+  the log-count difference in the 2,114 bp window centered on the variant, strand-averaged.
+  Against TenK10K's own precomputed `log_counts_diff` on 60 random SNVs per type, the port gives
+  r = 0.998 (slope 1.03) for CD14_Mono and r = 0.93 (slope 0.99) for B_naive. The ChromBPNet
+  models were trained on TenK10K accessibility with folds that include this project's test
+  chromosomes, so it is a reference point and not a held-out competitor.
