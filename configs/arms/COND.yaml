@@ -1,0 +1,4 @@
+# FiLM on z before the per-cell readout; pre-bottleneck width shrunk to match W32.
+model:
+  readout: film
+  match_params_to: W32

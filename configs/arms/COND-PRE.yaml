@@ -1,0 +1,4 @@
+# Added arm (docs/DECISIONS.md): FiLM on the pre-bottleneck activations.
+model:
+  readout: film_pre
+  match_params_to: W32

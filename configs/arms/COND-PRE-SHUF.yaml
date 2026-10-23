@@ -1,0 +1,4 @@
+model:
+  readout: film_pre
+  match_params_to: W32
+  shuffle_types: true

@@ -1,0 +1,707 @@
+{
+ "10x/atac_peaks.bed": {
+  "bytes": 3439145,
+  "sha256": "3975a4057f9caa3fb69ddaecc6ae9e530e77551717a1464c2d93ac9d73cb60ab",
+  "url": "https://cf.10xgenomics.com/samples/cell-arc/2.0.0/pbmc_granulocyte_sorted_10k/pbmc_granulocyte_sorted_10k_atac_peaks.bed"
+ },
+ "10x/filtered_feature_bc_matrix.h5": {
+  "bytes": 192125528,
+  "sha256": "f6824171378787baab244f559b8b438f79db2eb39f78d17b2196f7ecd2c03549",
+  "url": "https://cf.10xgenomics.com/samples/cell-arc/2.0.0/pbmc_granulocyte_sorted_10k/pbmc_granulocyte_sorted_10k_filtered_feature_bc_matrix.h5"
+ },
+ "10x/per_barcode_metrics.csv": {
+  "bytes": 88822764,
+  "sha256": "fd3e069b83e152145af234667b419c982968aca0df322a92adb71284d0d902cd",
+  "url": "https://cf.10xgenomics.com/samples/cell-arc/2.0.0/pbmc_granulocyte_sorted_10k/pbmc_granulocyte_sorted_10k_per_barcode_metrics.csv"
+ },
+ "genome/hg38.fa.gz": {
+  "bytes": 983659424,
+  "sha256": "c1dd87068c254eb53d944f71e51d1311964fce8de24d6fc0effc9c61c01527d4",
+  "url": "https://hgdownload.soe.ucsc.edu/goldenPath/hg38/bigZips/hg38.fa.gz"
+ },
+ "jaspar/JASPAR2024_CORE_vertebrates_non-redundant_pfms_meme.txt": {
+  "bytes": 469100,
+  "sha256": "dd494278d356a4e170908c74d6d8eb746a2c7504d6210cd51017141f21a65b18",
+  "url": "https://jaspar2024.elixir.no/download/data/2024/CORE/JASPAR2024_CORE_vertebrates_non-redundant_pfms_meme.txt"
+ },
+ "tenk10k/cbp_susie.parquet": {
+  "bytes": 508110085,
+  "sha256": "c941b89bc37cebfa4fc22647f85ba6db092f3db50211a3fbb30fd65db769396f",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/ChromBPNet/TenK10K.caQTL.Final1Mb.susie_finemapped_results_w_ChromBPNetScores.parquet"
+ },
+ "tenk10k/consensus_peaks.bed": {
+  "bytes": 19367486,
+  "sha256": "d23ea9ffbfa906841287635234d9c54d405924ca6631ee7887e8d2a10715b265",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/Miscellaneous/TenK10K_ATAC_MACS3_Combined_Peaks_Annotated.bed"
+ },
+ "tenk10k/ct_specific_peaks.zip": {
+  "bytes": 151873991,
+  "sha256": "80e64afbb5cd7f902095c1ae84d16e862f8f79de8e43f9c16e2717047d02ba1e",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/Miscellaneous/TenK10K_ATAC_ct_specific_peaks.zip"
+ },
+ "tenk10k/sig/B_naive.chr1.csv": {
+  "bytes": 9512143,
+  "sha256": "93915e73a0918004bc19468a309828636faa5f5f9147a3f601e3c2d36058690b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr1.csv"
+ },
+ "tenk10k/sig/B_naive.chr10.csv": {
+  "bytes": 5495918,
+  "sha256": "fd59822465cb1100441e89245798441e1c16f39aaca87e195fb99a2006454134",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr10.csv"
+ },
+ "tenk10k/sig/B_naive.chr11.csv": {
+  "bytes": 5221339,
+  "sha256": "fb63d4c8442bc1659e32e521a64402f8f91e5e3c1558924431a2146eee0596ea",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr11.csv"
+ },
+ "tenk10k/sig/B_naive.chr12.csv": {
+  "bytes": 5657035,
+  "sha256": "5cf0d261d93b634c79ea715345edc463041d387f65666205fae1b486a8b62b02",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr12.csv"
+ },
+ "tenk10k/sig/B_naive.chr13.csv": {
+  "bytes": 3010045,
+  "sha256": "f33591430acd29ee3d5d8d4dc46afbe1252c40a5ae65abf78b29e48f0b3fd388",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr13.csv"
+ },
+ "tenk10k/sig/B_naive.chr14.csv": {
+  "bytes": 3691063,
+  "sha256": "4f55fe418ed90e8bdec0b2db128d9b5c7a133b62731aeb6c7dedced88af5a233",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr14.csv"
+ },
+ "tenk10k/sig/B_naive.chr15.csv": {
+  "bytes": 3664471,
+  "sha256": "07d46873b06680ac63f00f4762651654fe607c0a78a41e738dc6bca573a30e4f",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr15.csv"
+ },
+ "tenk10k/sig/B_naive.chr16.csv": {
+  "bytes": 3481613,
+  "sha256": "754385b4506b6d058321bdcf0bbaec436d28b1bbc9538be623b4c4044706423c",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr16.csv"
+ },
+ "tenk10k/sig/B_naive.chr17.csv": {
+  "bytes": 4718135,
+  "sha256": "76cc8335f285fcdba86903e0b4828f42e9a3260717bace92700794eea88cbd73",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr17.csv"
+ },
+ "tenk10k/sig/B_naive.chr18.csv": {
+  "bytes": 2558221,
+  "sha256": "515f9683e7a6424c9e4f9d40ddd4b554ab729e877dda94bbd58b2579db2da3f3",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr18.csv"
+ },
+ "tenk10k/sig/B_naive.chr19.csv": {
+  "bytes": 3220846,
+  "sha256": "48c08b3669ec5d1e3fcc570a467aca03f527d3d922896cc4d140a0168ff781e3",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr19.csv"
+ },
+ "tenk10k/sig/B_naive.chr2.csv": {
+  "bytes": 9060070,
+  "sha256": "2c004e8344df55511b6db87fd7b4a9a66abeb80486f5049ae3a7329dee773755",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr2.csv"
+ },
+ "tenk10k/sig/B_naive.chr20.csv": {
+  "bytes": 3107145,
+  "sha256": "5ae26cde2b463b06d61c1f9b030511f61b4bf399dbb76376f37eb9b3224ba6c6",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr20.csv"
+ },
+ "tenk10k/sig/B_naive.chr21.csv": {
+  "bytes": 1405449,
+  "sha256": "aa18566a1c7ea1f775c8c2fd5df5f931b0e61fad8e8cc8e5eaa6f71ca07c5192",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr21.csv"
+ },
+ "tenk10k/sig/B_naive.chr22.csv": {
+  "bytes": 2211684,
+  "sha256": "3732dca1a5c18aa3bd6cd8c5899150425612cb13538e8ceea9018b46ff7a32f3",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr22.csv"
+ },
+ "tenk10k/sig/B_naive.chr3.csv": {
+  "bytes": 7422482,
+  "sha256": "414befb7a774938b593a4d019342f8ea6af4651c2a6518e115c4840e1885783b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr3.csv"
+ },
+ "tenk10k/sig/B_naive.chr4.csv": {
+  "bytes": 5139346,
+  "sha256": "054bfd554314c82b345a66f9ec80b78712dfa8e224e173dfe5521e35b03ffea6",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr4.csv"
+ },
+ "tenk10k/sig/B_naive.chr5.csv": {
+  "bytes": 6028601,
+  "sha256": "cd7f402e1c79f920fa6047481c973612f723d958652887b3fd75099bf411b262",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr5.csv"
+ },
+ "tenk10k/sig/B_naive.chr6.csv": {
+  "bytes": 6799833,
+  "sha256": "c52ca2352dc5e6545873e48b82dd556780d7e916d8b87ebfa829f0d199da64c3",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr6.csv"
+ },
+ "tenk10k/sig/B_naive.chr7.csv": {
+  "bytes": 5709768,
+  "sha256": "449baff966fac95503153576818de3cee0d44a605abc663d6bf323fbcf1be4fa",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr7.csv"
+ },
+ "tenk10k/sig/B_naive.chr8.csv": {
+  "bytes": 4952910,
+  "sha256": "33556d6ba32def739f293b1a067273e3840279a33f00590a4c851f2d944e6274",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr8.csv"
+ },
+ "tenk10k/sig/B_naive.chr9.csv": {
+  "bytes": 4559984,
+  "sha256": "1e0755698a84568c9b18be098c612cfb6fba9cd335a5e78dea41c0264b96b7db",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/B_naive/TenK10K.sig_cis_qtl_pairs.chr9.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr1.csv": {
+  "bytes": 10784359,
+  "sha256": "62826744449cf649c78b5a6c7b57f384e838387a3f3be4f2c5793f86f97c4483",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr1.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr10.csv": {
+  "bytes": 5797980,
+  "sha256": "efafa3b37d27a09ef676694233d2af3192e963c4a818cffb6322357109b2e6cb",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr10.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr11.csv": {
+  "bytes": 5502764,
+  "sha256": "379ba19f497e434e1407289b117cb8da60796e6de16dc6c2d0d66bbd3305ecd1",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr11.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr12.csv": {
+  "bytes": 5821286,
+  "sha256": "6d70574e5b546a1655e55fe635ed038a73e9106da4c99aa35643acc153517ec9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr12.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr13.csv": {
+  "bytes": 3096840,
+  "sha256": "5e6e205d3755743869ae3720f07d8b80eb5212badc2d2c434762d6a9765e46ce",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr13.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr14.csv": {
+  "bytes": 3842099,
+  "sha256": "9743cb76093c60a6b7c9d8f521fd6b861516b967b6968ee1162f6b8c38bfe94f",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr14.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr15.csv": {
+  "bytes": 3758962,
+  "sha256": "e867469d475e76322527b1c2ceedc63a26de09d03697085edde57a13d8b58662",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr15.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr16.csv": {
+  "bytes": 3684694,
+  "sha256": "c41a83e8541c3daeefde99b1a49ebf2d5332bb9c8734f3ae00561a55e8c3467d",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr16.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr17.csv": {
+  "bytes": 4895137,
+  "sha256": "9fe01b37fd155aef5911d9cee17f8016d34a97594bad3a7c89c24cb0f62ea217",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr17.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr18.csv": {
+  "bytes": 2602877,
+  "sha256": "cf712016e9a2643798f1257e94d2e8d864a6c9deae8532d9bc81ce2d355a7a0a",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr18.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr19.csv": {
+  "bytes": 3422201,
+  "sha256": "c6fd78982d55334ab645abaa5892ae07e65e1391c34fb14f9733b60a46527ddc",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr19.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr2.csv": {
+  "bytes": 9940477,
+  "sha256": "ae6181d23c1ba826c1a00775f9a42fe51a80b7181fec95deddca3919182e7409",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr2.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr20.csv": {
+  "bytes": 3201505,
+  "sha256": "43b002efe2cc16273c319501c8773c8b7c91432d4daa61fb52d8156efc763bb8",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr20.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr21.csv": {
+  "bytes": 1465712,
+  "sha256": "5c92873e8aba25ff6ca6c3750047f53826e15b5a7d2dca258577f8a2470950fa",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr21.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr22.csv": {
+  "bytes": 2305805,
+  "sha256": "bb965e1baf0c45ba62c7616b43db8536e55344b048dbd040620ef79401ce7dfc",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr22.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr3.csv": {
+  "bytes": 7935996,
+  "sha256": "043d6885a540acc7da76840a2c67c785e2c4650e40456aaec1dc05dce9e76172",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr3.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr4.csv": {
+  "bytes": 5513201,
+  "sha256": "eb97551596235d215e60b4b6640c408906f8ec112b45e949748a1f2ff75d2152",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr4.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr5.csv": {
+  "bytes": 6383187,
+  "sha256": "81b784d15ed0cd21fbb49b0b4f1b9e2bb73f758cddf93cda837e23ad0a1955bf",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr5.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr6.csv": {
+  "bytes": 7102454,
+  "sha256": "0f0861dd9588e08cf9bab423085b482ac7823bde9263a8607d1719bddc3ceb98",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr6.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr7.csv": {
+  "bytes": 6135504,
+  "sha256": "45ed7b9dd2265f765e7db7cc7fc5a98b16537cd53915b8174b9de5d50eeac0f0",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr7.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr8.csv": {
+  "bytes": 5228839,
+  "sha256": "984dc9a4b6dc1a755dedd3917a3e7507935f58f335f6b92c718704d27fb7ed43",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr8.csv"
+ },
+ "tenk10k/sig/CD14_Mono.chr9.csv": {
+  "bytes": 4902606,
+  "sha256": "89c5799e256497a19a2bb2d27539917851902dd29a7fe8bb6a4b8f052cabb6fb",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD14_Mono/TenK10K.sig_cis_qtl_pairs.chr9.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr1.csv": {
+  "bytes": 10042784,
+  "sha256": "f3310f5687f6e719bc8d4878db0ea765fc799308f03a5aefd4d338de2357c9f6",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr1.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr10.csv": {
+  "bytes": 5705444,
+  "sha256": "90d16334be6d446d7985a15ab67b23173cfd0703e43d20ca4d4685da68034300",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr10.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr11.csv": {
+  "bytes": 5408610,
+  "sha256": "318540d81f932c3ee495b6c193651e6c6b5ac9c4caedf8ed4d8098fea3448ab6",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr11.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr12.csv": {
+  "bytes": 5757045,
+  "sha256": "1402d7fa186bf81a2f36a18a197d5ac6b0a8b1b006532fe615f230d1b0047537",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr12.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr13.csv": {
+  "bytes": 3054023,
+  "sha256": "ff68175d630a30678797b2419fe31bce91e3a2da30084a9d6690245e55516b85",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr13.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr14.csv": {
+  "bytes": 3755476,
+  "sha256": "b5e0656a98e55f33f96706ec1804d99e1f754ab8f39e618ffe3a39e49110e467",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr14.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr15.csv": {
+  "bytes": 3709405,
+  "sha256": "f8c2fe463890e777d02f6720c67a8d21e07e1c475b4e8b45f2d8e2271c66af06",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr15.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr16.csv": {
+  "bytes": 3586561,
+  "sha256": "0dafcb1d7f6434cbb5592ba57f95927fb8790691a906c955a8a063b5babf8cfe",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr16.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr17.csv": {
+  "bytes": 4810947,
+  "sha256": "6929b2b0b58b30fe95456c6d4be141853a833733e5e2461c24f32d6feb5c08a0",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr17.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr18.csv": {
+  "bytes": 2578441,
+  "sha256": "da523907bd723655aa2ff221a681e542240004c4062a9c98b35a2a48bb727e9b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr18.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr19.csv": {
+  "bytes": 3338422,
+  "sha256": "0b12d991be3700f89747e273270602f03393fecaaecf19552f8dda8282ea696b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr19.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr2.csv": {
+  "bytes": 9420724,
+  "sha256": "045fe83ef253d832244978a42d3d52e9b61157aa35d56b0c5937e8afeb82a173",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr2.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr20.csv": {
+  "bytes": 3132753,
+  "sha256": "c299c37479b2c1461046d13841386bf4e77fce63a460f677c3c9f3b55b687aab",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr20.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr21.csv": {
+  "bytes": 1435529,
+  "sha256": "1eee6b69c7df5001028fa5f874c2433c0f6c1d318b2657144555ed5ec8d4aef2",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr21.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr22.csv": {
+  "bytes": 2280846,
+  "sha256": "adc712e7bc42a65dcb668417859e6fae16bc2826a80c343d322c8706aedacad2",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr22.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr3.csv": {
+  "bytes": 7693636,
+  "sha256": "9f8109bc74771050cf3c4510994f94e7f57111ce1134b344bcc77b754ebe2daa",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr3.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr4.csv": {
+  "bytes": 5329809,
+  "sha256": "5a70d211a676aa91059845c43a86d32287afc4afefa794768bebab7392401435",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr4.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr5.csv": {
+  "bytes": 6224537,
+  "sha256": "74a2f6f6fc7d4a7fa2eecad5e10570a68ad07c9797f8556013cf75339f21caa3",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr5.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr6.csv": {
+  "bytes": 6973820,
+  "sha256": "5e960030e4d10f39bfad2e9865b99a3f8b31e8066d3600367ed7e5083db66633",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr6.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr7.csv": {
+  "bytes": 5933201,
+  "sha256": "2130261814cff461699114cc7fc3739af8c486ca73a552038273812a8f99d77b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr7.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr8.csv": {
+  "bytes": 5110266,
+  "sha256": "731f5e49c6f96f1bc7a0082c399d9b9524acffba901643ab45188c7561cec770",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr8.csv"
+ },
+ "tenk10k/sig/CD16_Mono.chr9.csv": {
+  "bytes": 4764575,
+  "sha256": "ca65c348fad18ff123ccade23112ccfc4b178a4b09e3a51ac9b998ae5cb4a331",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD16_Mono/TenK10K.sig_cis_qtl_pairs.chr9.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr1.csv": {
+  "bytes": 10609857,
+  "sha256": "6efee78fbaaed5ca1b12a954c752c2f234d53062d6f993f3d04a76dabc98f9de",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr1.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr10.csv": {
+  "bytes": 5771687,
+  "sha256": "cd59939f9b74da141712ee4219d1acc138f7b9675df601d2410338267dab60f9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr10.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr11.csv": {
+  "bytes": 5480210,
+  "sha256": "ee8586e70a98297a41846e2009135ce1c4812c2d30d74437f4ebf7e8e05fb37a",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr11.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr12.csv": {
+  "bytes": 5807152,
+  "sha256": "defed60d217d0c297cf4e7f63c16fb234e7dc01cd94837e19faf410d5919e3a8",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr12.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr13.csv": {
+  "bytes": 3086325,
+  "sha256": "b26685473c300e92bbe356ebf93c6442dcf9d809245abbc06c9eb86b66a19f5d",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr13.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr14.csv": {
+  "bytes": 3829896,
+  "sha256": "c3dbbfc192a04fdb5122575a995857d4a797a02e8a2ee937e44cb9789422b0aa",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr14.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr15.csv": {
+  "bytes": 3745525,
+  "sha256": "7587c4c215a84ad2be431314046327f6730afdb13cbdb0bb28784ea76b145915",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr15.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr16.csv": {
+  "bytes": 3663130,
+  "sha256": "c79642c1f8ba87751c1802109687f855f2efe52752c9a33c46f769d34f75b1d0",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr16.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr17.csv": {
+  "bytes": 4881390,
+  "sha256": "404e2a77d5b95d14bedfbb00eb0cae156c66ce75975c5bf4cc3263b98b8fa3ba",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr17.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr18.csv": {
+  "bytes": 2597378,
+  "sha256": "910a977e63f0bef256a3bf34b2e49c3951af74ae238b7f2eb51aeced59256779",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr18.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr19.csv": {
+  "bytes": 3413120,
+  "sha256": "20ca1e02a84b9e9e5d440026e469f54c9eaa214dd776fd22dade6bbb8eeca364",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr19.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr2.csv": {
+  "bytes": 9800496,
+  "sha256": "a2d47a181ebe5217d19b16557b16951311a64a94c48aaefd0827f171142dfb27",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr2.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr20.csv": {
+  "bytes": 3185969,
+  "sha256": "8a7973e15c7ab7da7d4e24e2b13f58d9a837ca1ef5a5b94d5d16f14b53582a79",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr20.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr21.csv": {
+  "bytes": 1462488,
+  "sha256": "d520c7ab363fcfe40d45a0c9bd97e6a1f70acaf42dd3ae2c78291b77b330af25",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr21.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr22.csv": {
+  "bytes": 2307352,
+  "sha256": "fc41e5f4e53a2ebe1f49190730cf15ff2fa52c27fefaf19d454409c8e1d02701",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr22.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr3.csv": {
+  "bytes": 7884517,
+  "sha256": "e69597595bea3dad90c4cc557f0ebaaee762e9b790cfa6db314bc41c3f55a62f",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr3.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr4.csv": {
+  "bytes": 5470499,
+  "sha256": "9646c0dba7f7ea73f55c0928c7e1409c6fbc0b15f05959132ba4d7a33c76d14b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr4.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr5.csv": {
+  "bytes": 6351274,
+  "sha256": "f1f7bc71989b9fbf6eb7889430d2621e604fb54cfa0f32e01bcfb73ae3e7d67a",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr5.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr6.csv": {
+  "bytes": 7077930,
+  "sha256": "ecf3ea108371689d9d97a99e8777ca95df9cdbcc6770446526119f050fe33ed9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr6.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr7.csv": {
+  "bytes": 6101362,
+  "sha256": "7565fe0bef8b7c43c09ba1dc988db1880eb8f083d32793a3cced841198784a4b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr7.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr8.csv": {
+  "bytes": 5209185,
+  "sha256": "b1651449c8cf5b3964a5b58593cb83fffbeea8ef667b4d1907f6f9c6c53afc81",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr8.csv"
+ },
+ "tenk10k/sig/CD4_Naive.chr9.csv": {
+  "bytes": 4863048,
+  "sha256": "e3ae4756d34197a2abee9b77e9618c5eef91c1a706156998820e117588427b6a",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD4_Naive/TenK10K.sig_cis_qtl_pairs.chr9.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr1.csv": {
+  "bytes": 8450966,
+  "sha256": "46aea9ff52b925f2042a43f78ea08d3e02c9a970e607d5b8c43eddfdf0e0c982",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr1.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr10.csv": {
+  "bytes": 4942867,
+  "sha256": "13b9c3709a35be91ccf322c06b5f8b4555f9ea8efbe0e38f975968ee4f1807c0",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr10.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr11.csv": {
+  "bytes": 4760173,
+  "sha256": "22661ebc39734594adb01ff19879694bc84e072f2e8aeb25f34577bd247e70e8",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr11.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr12.csv": {
+  "bytes": 5265181,
+  "sha256": "6886a8b0b3d67ac8a5e6a85b80e55c4c072983ac6e7c376deedcc874e28ea078",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr12.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr13.csv": {
+  "bytes": 2799768,
+  "sha256": "57697e09b6ee36bc6a73ac579a6fb2196ee4b7da8f28539146e6bbb5668dd8c1",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr13.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr14.csv": {
+  "bytes": 3489835,
+  "sha256": "e53f6fb0a0ab8693eda5620c23cbb9454baf3a20e9e7616ade55191e06332a5e",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr14.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr15.csv": {
+  "bytes": 3425869,
+  "sha256": "16d2b71c76e8c97ce8bc749f3ca95e79b50bfad1ce5d7bd97fff315e13921394",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr15.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr16.csv": {
+  "bytes": 3190195,
+  "sha256": "d4d89cfa2de0dd8f2d77ee9a2b31f275818288fefdb9a690abf1121934927d61",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr16.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr17.csv": {
+  "bytes": 4501110,
+  "sha256": "5417c43e1cc210a0c6676c98c1a676641b1a4168ef41ea80932bf11fb5d0d3e5",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr17.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr18.csv": {
+  "bytes": 2473233,
+  "sha256": "bb0e8ccf72eca0cce1a27a2f7e7e5d1125f684fc2523d90e1e114943f3ce6342",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr18.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr19.csv": {
+  "bytes": 3116840,
+  "sha256": "d9f8cc7b356b33c390b1e5f3950cc190e347e67307ea328e13b4981b16d49548",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr19.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr2.csv": {
+  "bytes": 8062877,
+  "sha256": "59ce4e89bdff58cefe675afa5dcc256f81f8a166af2b7b17ef9721cd777926d9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr2.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr20.csv": {
+  "bytes": 3057917,
+  "sha256": "0cb6a03151cdc53edeadf1f715381db529ad701f0d7f3440427d7bd722c176d1",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr20.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr21.csv": {
+  "bytes": 1384875,
+  "sha256": "a604018453e14b8e0b990ca1b9a71d1d369a3fbcccec4ee2f3081a11459aa25f",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr21.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr22.csv": {
+  "bytes": 2168686,
+  "sha256": "554ec04f998ebf8723ec4f95d7daba3a8f9bf86d8edac0db515b1801d0974547",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr22.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr3.csv": {
+  "bytes": 6641252,
+  "sha256": "b4907774d76d278cd7736648772ee76c646711922dd0e740d08e62d6372957e2",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr3.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr4.csv": {
+  "bytes": 4519891,
+  "sha256": "f57485ea305a4d0c355d95dd860c5a05dfca68a682f123160783c418bc760370",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr4.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr5.csv": {
+  "bytes": 5344653,
+  "sha256": "ab201dd9979416903b7b000bf6836ac53997382fe0acb237601fee0ebed8bc5b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr5.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr6.csv": {
+  "bytes": 6153849,
+  "sha256": "855ccf8be07215492d71d59715f9e8c5010bb6ae9980139eb9a9867eb5d748fb",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr6.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr7.csv": {
+  "bytes": 5121026,
+  "sha256": "cc00c4724137da367dca31b4de8da95fea79578843192610afa3fe4731057580",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr7.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr8.csv": {
+  "bytes": 4407461,
+  "sha256": "5b5ac40c6939b252f8bd9613733c9c858894e19a8b2704cb291ee63df6675697",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr8.csv"
+ },
+ "tenk10k/sig/CD8_Naive.chr9.csv": {
+  "bytes": 4022844,
+  "sha256": "b9b4fb64c9113c492efd44b3fcdf5163a5b0114dedb65db6c709dfce97e962f8",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/CD8_Naive/TenK10K.sig_cis_qtl_pairs.chr9.csv"
+ },
+ "tenk10k/sig/NK.chr1.csv": {
+  "bytes": 10591678,
+  "sha256": "f9bd2001c83cc343668428076dc6e8d1ef94a45cf85e8c790d506e3652e0d3e1",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr1.csv"
+ },
+ "tenk10k/sig/NK.chr10.csv": {
+  "bytes": 5776893,
+  "sha256": "2bc4770f729932e84f6bf8d949f10f529faaf065896043e9fba160bc5cb84ea7",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr10.csv"
+ },
+ "tenk10k/sig/NK.chr11.csv": {
+  "bytes": 5483443,
+  "sha256": "ee19666873b160eb9a0cfec7bbba8623ef02f357c11c35e85920859a4b38fd7e",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr11.csv"
+ },
+ "tenk10k/sig/NK.chr12.csv": {
+  "bytes": 5805187,
+  "sha256": "4ed51d14a64c3705476a96bcac0873db3a61a4d3b9a2f681aa64a90fb5cdf665",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr12.csv"
+ },
+ "tenk10k/sig/NK.chr13.csv": {
+  "bytes": 3085757,
+  "sha256": "761ee9e2e53277d4373893a4a79c3c2987e1a18b6eb81744ab0d9937aa4f12ea",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr13.csv"
+ },
+ "tenk10k/sig/NK.chr14.csv": {
+  "bytes": 3829630,
+  "sha256": "d484ea69d256c895b6ed40901a0d1f11626fed324c81029accceab9ad49cd0e9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr14.csv"
+ },
+ "tenk10k/sig/NK.chr15.csv": {
+  "bytes": 3747627,
+  "sha256": "024d2335a68954935edb6b786b557f6607638b4cc8ba074a5f7405aa9e783208",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr15.csv"
+ },
+ "tenk10k/sig/NK.chr16.csv": {
+  "bytes": 3656369,
+  "sha256": "3352508a037fcc8af2ba83183c17de4dd6f9cdb4022ba4bc3033999a447f47ee",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr16.csv"
+ },
+ "tenk10k/sig/NK.chr17.csv": {
+  "bytes": 4882361,
+  "sha256": "b4d288991a9959853fdf5e774a2fab1c8ac52553fb9776370ed801c3f161cfa0",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr17.csv"
+ },
+ "tenk10k/sig/NK.chr18.csv": {
+  "bytes": 2596985,
+  "sha256": "d495195e702ea540dc024a709d261de1aa7a7926dd3e4842653fb0dc26933f64",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr18.csv"
+ },
+ "tenk10k/sig/NK.chr19.csv": {
+  "bytes": 3418125,
+  "sha256": "68cc857eae45fb1c6b0898a014753dff03574c598f005cfd27a7a57026ae403d",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr19.csv"
+ },
+ "tenk10k/sig/NK.chr2.csv": {
+  "bytes": 9836758,
+  "sha256": "bdd603aa2825b2b780c1593fd99141f1a8a32583b53041cdca2f25eefdf69bd9",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr2.csv"
+ },
+ "tenk10k/sig/NK.chr20.csv": {
+  "bytes": 3189398,
+  "sha256": "df56ea254ef3939e022b38d6961794b68b052d484e4ce0293bf636baa6579ccc",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr20.csv"
+ },
+ "tenk10k/sig/NK.chr21.csv": {
+  "bytes": 1464448,
+  "sha256": "a4ee3c3fbd7c3982655121a46dc13d0eaf8cd7d886d348126ca51b04a0e86e0b",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr21.csv"
+ },
+ "tenk10k/sig/NK.chr22.csv": {
+  "bytes": 2309320,
+  "sha256": "a2d7de9c9c576437a9a1145126bbd6ab421f97d8331f5c9e578df172eff95c6d",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr22.csv"
+ },
+ "tenk10k/sig/NK.chr3.csv": {
+  "bytes": 7889264,
+  "sha256": "47caab4daf7e71f1c9e08ae3af016d38fbd99578a3226525f7f87bf2b5e145e0",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr3.csv"
+ },
+ "tenk10k/sig/NK.chr4.csv": {
+  "bytes": 5475962,
+  "sha256": "978a00dfbab39756b8db5051579a445d968055076c290388f95316b5e32a1718",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr4.csv"
+ },
+ "tenk10k/sig/NK.chr5.csv": {
+  "bytes": 6355267,
+  "sha256": "adc5a9ad8de84e0011255cb27e58fc1cfd92586c92a483b43c8a54b302fcddd2",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr5.csv"
+ },
+ "tenk10k/sig/NK.chr6.csv": {
+  "bytes": 7058680,
+  "sha256": "772d916016d118d3fde9e27c91040541210ae7b3da1aa00f0b0e9d20dc011b74",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr6.csv"
+ },
+ "tenk10k/sig/NK.chr7.csv": {
+  "bytes": 6102314,
+  "sha256": "ecf6b6f5194a0e33a96cfd785752239a31e79ee05215646e0f8b4c2f862417f4",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr7.csv"
+ },
+ "tenk10k/sig/NK.chr8.csv": {
+  "bytes": 5196663,
+  "sha256": "c913160fb8162d970c04ef9bcbf040a798ab6fa262424394a960c3520b55daac",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr8.csv"
+ },
+ "tenk10k/sig/NK.chr9.csv": {
+  "bytes": 4873920,
+  "sha256": "d901912cb2bd4e73812d90f75ee0397fa24e9e1a5333950cab6bb12bad161880",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/caQTL_common_TensorQTL/NK/TenK10K.sig_cis_qtl_pairs.chr9.csv"
+ },
+ "tenk10k/susie.zip": {
+  "bytes": 194764002,
+  "sha256": "c943be868942819afb4faf40e7ea9a9f3975b7105de4ee50055513f45408a4f6",
+  "url": "https://huggingface.co/datasets/anglixue/TenK10K_multiome/resolve/a9baa08bc22e5fb4fca204e00df4e65534285423/Fine_mapping/all_celltypes_caQTL_susie_annotated.zip"
+ }
+}

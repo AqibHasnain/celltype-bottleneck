@@ -1,0 +1,10 @@
+n_cells: 11898
+n_peaks_raw: 143887
+n_peaks_kept: 98507
+min_cell_fraction: 0.01
+peaks_per_split:
+  train: 79443
+  validation: 4859
+  test: 14205
+density: 0.08399279969050379
+n_windows_with_N: 24

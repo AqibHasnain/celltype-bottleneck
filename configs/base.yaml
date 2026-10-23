@@ -1,0 +1,21 @@
+# Shared by every arm. Arm files override only the model block.
+data:
+  min_cell_fraction: 0.01
+model:
+  n_filters_init: 288
+  n_repeat_blocks_tower: 6
+  filters_mult: 1.122
+  n_filters_pre_bottleneck: 256
+  bottleneck: 32
+  readout: linear      # linear | film
+  shuffle_types: false
+train:
+  # Adam settings follow scBasset and scvi.external.SCBASSET.
+  lr: 0.01
+  betas: [0.95, 0.9995]
+  batch_size: 128
+  max_epochs: 1000
+  patience: 10
+  shift_max: 3
+  num_workers: 0
+seeds: [0, 1, 2]
