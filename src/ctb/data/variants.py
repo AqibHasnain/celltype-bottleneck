@@ -61,15 +61,13 @@ def load_called() -> dict[str, dict[str, tuple[np.ndarray, np.ndarray]]]:
     z = zipfile.ZipFile(TK / "ct_specific_peaks.zip")
     out = {}
     for ct in CELL_TYPES:
-        raw = pd.read_csv(z.open(f"TenK10K_ATAC_ct_specific_peaks/{ct}.csv"), header=None)
-        # Files come either as a pandas CSV with a header or as headerless 3+ column BED.
-        if str(raw.iloc[0, 1]) == "chrom":
-            df = pd.read_csv(z.open(f"TenK10K_ATAC_ct_specific_peaks/{ct}.csv"), index_col=0)
-            df = df[["chrom", "start", "end"]]
+        name = f"TenK10K_ATAC_ct_specific_peaks/{ct}.csv"
+        first = z.open(name).readline().decode()
+        # Files come either as a pandas CSV with a header or as headerless tab-separated BED.
+        if ",chrom,start,end" in first:
+            df = pd.read_csv(z.open(name), index_col=0)[["chrom", "start", "end"]]
         else:
-            df = pd.read_csv(
-                z.open(f"TenK10K_ATAC_ct_specific_peaks/{ct}.csv"), sep="\t", header=None
-            ).iloc[:, :3]
+            df = pd.read_csv(z.open(name), sep="\t", header=None).iloc[:, :3]
             df.columns = ["chrom", "start", "end"]
         per_chrom = {}
         for chrom, g in df.groupby("chrom"):
@@ -229,7 +227,7 @@ def build() -> None:
             causal.loc[g.index, f"called:{ct}"] = overlaps(
                 called[ct].get(chrom), g["start"].to_numpy(), g["end"].to_numpy()
             )
-    causal["n_called"] = causal[[f"called:{ct}" for ct in CELL_TYPES]].sum(1)
+    causal["n_called"] = causal[[f"called:{ct}" for ct in CELL_TYPES]].sum(axis=1)
     causal["locus"] = assign_loci(causal["chrom"].to_numpy(), causal["pos"].to_numpy())
 
     test = causal[causal["split"] == "test"].copy()

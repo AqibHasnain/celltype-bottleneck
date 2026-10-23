@@ -1,0 +1,50 @@
+{
+  "causal_pairs_all_chroms": 10399,
+  "causal_pairs_by_split": {
+    "train": 8177,
+    "test": 1664,
+    "validation": 558
+  },
+  "causal_dropped_ref_mismatch": 0,
+  "test_causal_pairs": 1664,
+  "test_causal_unique_variants": 1658,
+  "test_causal_loci": 726,
+  "test_pairs_specific_set": 1089,
+  "test_causal_by_lead_celltype": {
+    "CD14_Mono": 813,
+    "NK": 321,
+    "CD4_Naive": 235,
+    "CD16_Mono": 176,
+    "B_naive": 107,
+    "CD8_Naive": 12
+  },
+  "test_causal_pip_ge_05_by_celltype": {
+    "B_naive": 196,
+    "CD4_Naive": 347,
+    "CD8_Naive": 66,
+    "NK": 442,
+    "CD14_Mono": 973,
+    "CD16_Mono": 440
+  },
+  "specific_set_called_by_celltype": {
+    "B_naive": 932,
+    "CD4_Naive": 914,
+    "CD8_Naive": 852,
+    "NK": 914,
+    "CD14_Mono": 1012,
+    "CD16_Mono": 993
+  },
+  "specific_set_significant_by_celltype": {
+    "B_naive": 273,
+    "CD4_Naive": 408,
+    "CD8_Naive": 133,
+    "NK": 515,
+    "CD14_Mono": 784,
+    "CD16_Mono": 520
+  },
+  "test_pairs_missing_any_slope": 60,
+  "control_pool_pairs": 144375,
+  "controls": 8282,
+  "causal_with_5_controls": 1652,
+  "causal_with_0_controls": 2
+}
